@@ -1,0 +1,10 @@
+erlang-otp-r15b01 (0.1+imvu-2) unstable; urgency=low
+
+  * Make it automatically conflict/replace/uninstall the old 10.04 Erlang.
+
+ -- Jon Watte <jwatte@imvu.com>  Thu, 19 Apr 2012 22:15:00 -0700
+erlang-otp-r15b01 (0.1+imvu-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Jon Watte <jwatte@imvu.com>  Thu, 19 Apr 2012 17:41:44 -0700

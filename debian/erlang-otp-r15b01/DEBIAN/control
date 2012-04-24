@@ -1,0 +1,14 @@
+Package: erlang-otp-r15b01
+Version: 0.1+imvu-2
+Architecture: amd64
+Maintainer: unknown <jwatte@imvu.com>
+Installed-Size: 161392
+Depends: libc6 (>= 2.7), libgcc1 (>= 1:4.1.1), libgl1-mesa-glx | libgl1, libglu1-mesa | libglu1, libncurses5 (>= 5.6+20071006-3), libssl0.9.8 (>= 0.9.8m-1), libstdc++6 (>= 4.1.1), libwxbase2.8-0 (>= 2.8.10.1), libwxgtk2.8-0 (>= 2.8.10.1)
+Conflicts: erlang, erlang-appmon, erlang-asn1, erlang-base, erlang-base-hipe, erlang-common-test, erlang-corba, erlang-crypto, erlang-debugger, erlang-dev, erlang-dialyzer, erlang-docbuilder, erlang-edoc, erlang-erl-docgen, erlang-et, erlang-eunit, erlang-examples, erlang-gs, erlang-ic, erlang-inets, erlang-inviso, erlang-manpages, erlang-megaco, erlang-mnesia, erlang-mode, erlang-nox, erlang-observer, erlang-odbc, erlang-os-mon, erlang-parsetools, erlang-percept, erlang-pman, erlang-public-key, erlang-reltool, erlang-runtime-tools, erlang-snmp, erlang-src, erlang-ssh, erlang-ssl, erlang-syntax-tools, erlang-test-server, erlang-toolbar, erlang-tools, erlang-tv, erlang-typer, erlang-webtool, erlang-x11, erlang-xmerl
+Replaces: erlang, erlang-appmon, erlang-asn1, erlang-base, erlang-base-hipe, erlang-common-test, erlang-corba, erlang-crypto, erlang-debugger, erlang-dev, erlang-dialyzer, erlang-docbuilder, erlang-edoc, erlang-erl-docgen, erlang-et, erlang-eunit, erlang-examples, erlang-gs, erlang-ic, erlang-inets, erlang-inviso, erlang-manpages, erlang-megaco, erlang-mnesia, erlang-mode, erlang-nox, erlang-observer, erlang-odbc, erlang-os-mon, erlang-parsetools, erlang-percept, erlang-pman, erlang-public-key, erlang-reltool, erlang-runtime-tools, erlang-snmp, erlang-src, erlang-ssh, erlang-ssl, erlang-syntax-tools, erlang-test-server, erlang-toolbar, erlang-tools, erlang-tv, erlang-typer, erlang-webtool, erlang-x11, erlang-xmerl
+Provides: erlang
+Section: erlang
+Priority: extra
+Homepage: http://www.erlang.org/
+Description: Erlang language and OTP libraries R15B01
+ Built for Ubuntu Server 10.04 LTS x64.

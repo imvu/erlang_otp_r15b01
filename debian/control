@@ -1,0 +1,16 @@
+Source: erlang-otp-r15b01
+Section: erlang
+Priority: extra
+Maintainer: unknown <jwatte@imvu.com>
+Build-Depends: debhelper (>= 7), autotools-dev, openssl, valgrind, libglu1-mesa-dev, libgl1-mesa-glx, libasound2, mesa-common-dev, libssl-dev, libwxgtk2.8-dev
+Standards-Version: 3.8.3
+Homepage: http://www.erlang.org/
+
+Package: erlang-otp-r15b01
+Architecture: amd64
+Conflicts: erlang, erlang-appmon, erlang-asn1, erlang-base, erlang-base-hipe, erlang-common-test, erlang-corba, erlang-crypto, erlang-debugger, erlang-dev, erlang-dialyzer, erlang-docbuilder, erlang-edoc, erlang-erl-docgen, erlang-et, erlang-eunit, erlang-examples, erlang-gs, erlang-ic, erlang-inets, erlang-inviso, erlang-manpages, erlang-megaco, erlang-mnesia, erlang-mode, erlang-os-mon, erlang-nox, erlang-observer, erlang-odbc, erlang-parsetools, erlang-percept, erlang-pman, erlang-public-key, erlang-reltool, erlang-runtime-tools, erlang-snmp, erlang-src, erlang-ssh, erlang-ssl, erlang-syntax-tools, erlang-test-server, erlang-toolbar, erlang-tools, erlang-tv, erlang-typer, erlang-webtool, erlang-x11, erlang-xmerl
+Replaces: erlang, erlang-appmon, erlang-asn1, erlang-base, erlang-base-hipe, erlang-common-test, erlang-corba, erlang-crypto, erlang-debugger, erlang-dev, erlang-dialyzer, erlang-docbuilder, erlang-edoc, erlang-erl-docgen, erlang-et, erlang-eunit, erlang-examples, erlang-gs, erlang-ic, erlang-inets, erlang-inviso, erlang-manpages, erlang-megaco, erlang-mnesia, erlang-mode, erlang-os-mon, erlang-nox, erlang-observer, erlang-odbc, erlang-parsetools, erlang-percept, erlang-pman, erlang-public-key, erlang-reltool, erlang-runtime-tools, erlang-snmp, erlang-src, erlang-ssh, erlang-ssl, erlang-syntax-tools, erlang-test-server, erlang-toolbar, erlang-tools, erlang-tv, erlang-typer, erlang-webtool, erlang-x11, erlang-xmerl
+Provides: erlang
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Erlang language and OTP libraries R15B01
+ Built for Ubuntu Server 10.04 LTS x64.
