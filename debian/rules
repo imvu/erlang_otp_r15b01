@@ -13,7 +13,7 @@
 	dh  $@
 
 override_dh_auto_configure:
-	CFLAGS="-g -O0" CXXFLAGS="-g -O0" CPPFLAGS="-g -O0" dh_auto_configure -- --enable-hipe --enable-threads --enable-smp-support --enable-kernel-poll --enable-native-libs --without-javac --with-ssl --prefix=/usr
+	CFLAGS="-g -O0" CXXFLAGS="-g -O0" CPPFLAGS="-g -O0" dh_auto_configure -- --enable-hipe --enable-threads --enable-smp-support --enable-kernel-poll --disable-native-libs --without-javac --with-ssl --prefix=/usr
 
 override_dh_strip:
 	echo "not stripping"

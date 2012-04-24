@@ -1,3 +1,8 @@
+erlang-otp-r15b01 (0.2+imvu-1) unstable; urgency=low
+
+  * Don't enable native-libs.
+
+ -- Jon Watte <jwatte@imvu.com>  Tue, 24 Apr 2012 17:00:00 -0700
 erlang-otp-r15b01 (0.1+imvu-2) unstable; urgency=low
 
   * Make it automatically conflict/replace/uninstall the old 10.04 Erlang.
