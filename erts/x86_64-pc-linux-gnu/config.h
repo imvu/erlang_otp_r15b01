@@ -58,7 +58,7 @@
 #define ERTS_USE_POLL 1
 
 /* Define if __after_morecore_hook can track malloc()s core memory use. */
-#define ERTS___AFTER_MORECORE_HOOK_CAN_TRACK_MALLOC 1
+/* #undef ERTS___AFTER_MORECORE_HOOK_CAN_TRACK_MALLOC */
 
 /* Define if bigendian */
 /* #undef ETHR_BIGENDIAN */

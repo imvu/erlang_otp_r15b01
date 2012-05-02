@@ -46,7 +46,7 @@ DUBIOUS_ORIGINS = /undefined/environment/
 # ----------------------------------------------------
 
 HIPE_ENABLED=yes
-NATIVE_LIBS_ENABLED=yes
+NATIVE_LIBS_ENABLED=
 
 # ----------------------------------------------------
 #	Command macros
